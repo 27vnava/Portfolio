@@ -70,3 +70,11 @@ nav{
 
     transition: 0.3s ease;
 }
+
+.nav-links a:hover{
+    color: #d88ca8;
+}
+
+.nav-links a:hover::after{
+    width: 100%;
+}
