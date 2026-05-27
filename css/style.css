@@ -28,3 +28,16 @@ nav{
 
     box-shadow: 0 2px 15px rgba(0,0,0,0.08);
 }
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+.nav-links p{
+    margin: 0;
+}
