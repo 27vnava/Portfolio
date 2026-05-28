@@ -275,3 +275,11 @@ h4{
 .experience-card li{
     margin-bottom: 10px;
 }
+
+footer{
+    background-color: #c2849c;
+
+    text-align: center;
+
+    padding: 45px 20px;
+}
