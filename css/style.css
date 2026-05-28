@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Open+Sans:wght@300;400;500;600&display=swap');
-
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -84,12 +82,12 @@ nav{
 header{
     height: 100vh;
 
-    background:
+    /* background:
     linear-gradient(rgba(255,240,245,0.35),
     rgba(255,240,245,0.35)),
-    url("../images/download(39).jpg");
+    url("../images/download(39).jpg"); */
 
-
+    background-image: url("../images/flower.jpg");
 
     background-size: cover;
     background-position: center;
@@ -147,4 +145,34 @@ section{
 
 section:hover{
     transform: translateY(-4px);
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 2.3rem;
+    font-weight: 700;
+
+    color: #c06c8d;
+
+    margin-bottom: 25px;
+
+    position: relative;
+}
+
+
+h2::after{
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: -10px;
+
+    width: 70px;
+    height: 4px;
+
+    background-color: #e5a6bc;
+
+    border-radius: 10px;
 }
