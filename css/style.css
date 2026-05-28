@@ -213,3 +213,35 @@ h4{
 .extracurricular-list li{
     margin-bottom: 12px;
 }
+
+.skills-container{
+    display: flex;
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+.skill-card{
+    flex: 1;
+    min-width: 260px;
+
+    background: linear-gradient(to bottom right,
+    #fff6f9,
+    #ffe8ef);
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 5px 18px rgba(216,140,168,0.15);
+
+    transition: 0.3s ease;
+}
+
+.skill-card:hover{
+    transform: translateY(-5px);
+}
+
+
+
+
