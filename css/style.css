@@ -242,6 +242,36 @@ h4{
     transform: translateY(-5px);
 }
 
+.skill-card ul{
+    padding-left: 20px;
+}
 
+.skill-card li{
+    margin-bottom: 10px;
+}
 
+.experience-card{
+    background-color: #fff7fa;
 
+    margin-top: 25px;
+    padding: 30px;
+
+    border-radius: 20px;
+
+    border-left: 6px solid #c9829f;
+
+    transition: 0.3s ease;
+}
+
+.experience-card:hover{
+    transform: translateX(5px);
+}
+
+/* Experience Lists */
+.experience-card ul{
+    padding-left: 20px;
+}
+
+.experience-card li{
+    margin-bottom: 10px;
+}
