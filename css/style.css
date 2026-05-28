@@ -130,3 +130,21 @@ main{
     margin: auto;
     margin-top: 90px;
 }
+
+section{
+    background: white;
+
+    margin-bottom: 50px;
+    padding: 50px;
+
+    border-radius: 25px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+
+    transition: 0.3s ease;
+}
+
+
+section:hover{
+    transform: translateY(-4px);
+}
