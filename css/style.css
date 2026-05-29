@@ -258,3 +258,39 @@ a {
         font-size: 2rem;
     }
 }
+
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-image-container {
+    flex-shrink: 0;
+}
+
+.about-image {
+    width: 260px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    display: block;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image {
+        width: 220px;
+    }
+}
