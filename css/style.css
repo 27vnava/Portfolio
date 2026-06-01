@@ -129,7 +129,7 @@ h2::after {
 }
 
 h3 {
-    /* Updated heading font */
+ 
     font-family: 'Geom', sans-serif;
     font-size: 1.3rem;
     color: #91546e;
@@ -260,37 +260,101 @@ a {
 }
 
 
+
 .about-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
+    align-items: flex-start;
+    gap: 40px;
 }
 
 .about-text {
     flex: 1;
 }
 
+.about-text p {
+    margin-bottom: 18px;
+}
+
 .about-image-container {
-    flex-shrink: 0;
+    flex: 0 0 280px;
 }
 
 .about-image {
-    width: 260px;
-    height: auto;
+    width: 100%;
+    display: block;
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-    display: block;
 }
 
-/* MOBILE */
+
+
+header h1 {
+    font-family: 'Geom', sans-serif;
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    font-weight: 800;
+    color: white;
+    background-color: rgba(194, 132, 156, 0.92);
+    padding: 40px 70px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+h2 {
+    font-family: 'Geom', sans-serif;
+    font-size: clamp(1.8rem, 4vw, 2.3rem);
+    font-weight: 700;
+    color: #c06c8d;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.skill-card {
+    flex: 1 1 300px;
+    min-width: 250px;
+}
+
+
+
 @media (max-width: 768px) {
+
+    nav {
+        padding: 12px 0;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+        padding: 25px 35px;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+    }
+
     .about-container {
         flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 
-    .about-image {
+    .about-image-container {
         width: 220px;
     }
+
+    main {
+        width: 95%;
+    }
+}
+
+.nav-links li {
+    list-style: none;
 }
